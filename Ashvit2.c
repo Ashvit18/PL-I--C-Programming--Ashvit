@@ -1,4 +1,4 @@
-*
+/*
 write a program to make use of basic input output function using different data type 
 solution (2) user defined  value 
 */
