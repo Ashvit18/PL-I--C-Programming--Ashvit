@@ -1,16 +1,18 @@
-/* 
-program 3  write a program to calculate area pf a circle 
-solution 1 predifined values 
+/*
+Program (4) -> Write a program to calculate the area of a circle.
+Solution(2) -> User Define Values
 */
-#include <stdio.h>
-int main ()
-{
-float radius, area ;
-printf("\n Enter the radius of circle : ");
-scanf("%f", &radius);
-area = (3.14*radius*radius);
-printf("\n aera of circle = %f", area);
-return 0;
 
+# include<stdio.h>
+int main()
+{
+    float radius, area;
+
+    printf("\n Enter the radius of the circle: ");
+    scanf("%f", &radius);
+    area = (3.14*radius*radius);
+    printf("\n Area of Circle= %f", area);
+
+    return 0;
 }
 
